@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Job Portal</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header class="navbar">
+  <div class="logo">💼 SmartJob</div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#jobs">Jobs</a>
+    <a href="#companies">Companies</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <input type="text" id="search" placeholder="Search jobs..." />
+</header>
+
+<section class="hero" id="home">
+  <div class="overlay">
+    <h1>Find Your Dream Career</h1>
+    <p>Top companies are hiring talented developers now.</p>
+    <button>Explore Jobs</button>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="box">500+ Jobs</div>
+  <div class="box">150 Companies</div>
+  <div class="box">10K+ Users</div>
+</section>
+
+<section class="jobs-section" id="jobs">
+  <h2>Latest Jobs</h2>
+  <div class="jobs" id="jobList"></div>
+</section>
+
+<section class="companies" id="companies">
+  <h2>Top Companies</h2>
+  <div class="company-grid">
+    <div class="company">Google</div>
+    <div class="company">Microsoft</div>
+    <div class="company">Amazon</div>
+    <div class="company">Infosys</div>
+    <div class="company">TCS</div>
+    <div class="company">Wipro</div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 Smart Job Portal </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
